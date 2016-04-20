@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		530BEA5B1CB4AEE900D733C7 /* BlockButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 530BEA5A1CB4AEE900D733C7 /* BlockButton.m */; };
+		530BEA681CB5048C00D733C7 /* CallNumbers.m in Sources */ = {isa = PBXBuildFile; fileRef = 530BEA671CB5048C00D733C7 /* CallNumbers.m */; };
+		5323D28C1CA69905006DE3FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5323D28B1CA69905006DE3FE /* main.m */; };
+		5323D28F1CA69905006DE3FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5323D28E1CA69905006DE3FE /* AppDelegate.m */; };
+		5323D2921CA69905006DE3FE /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5323D2911CA69905006DE3FE /* GameViewController.m */; };
+		5323D2951CA69905006DE3FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5323D2931CA69905006DE3FE /* Main.storyboard */; };
+		5323D29A1CA69905006DE3FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5323D2981CA69905006DE3FE /* LaunchScreen.storyboard */; };
+		5323D2A31CA69962006DE3FE /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 5323D2A21CA69962006DE3FE /* Player.m */; };
+		5367DE711CBA83DA0071E741 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5367DE701CBA83DA0071E741 /* AVFoundation.framework */; };
+		5367DE731CBA84920071E741 /* bgm in Resources */ = {isa = PBXBuildFile; fileRef = 5367DE721CBA84920071E741 /* bgm */; };
+		5377F2A41CC3772500A547EB /* PlayMainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5377F2A31CC3772500A547EB /* PlayMainMenuViewController.m */; };
+		5377F2A71CC607B900A547EB /* AI.m in Sources */ = {isa = PBXBuildFile; fileRef = 5377F2A61CC607B900A547EB /* AI.m */; };
+		5377F2AD1CC6343600A547EB /* MultiPlayerGameViewcontrollerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5377F2AC1CC6343600A547EB /* MultiPlayerGameViewcontrollerViewController.m */; };
+		5377F2AF1CC6612B00A547EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5377F2AE1CC6612B00A547EB /* Assets.xcassets */; };
+		53A308A21CA77AD700EC1DD7 /* Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A308A11CA77AD700EC1DD7 /* Board.m */; };
+		53A308A51CA77F2800EC1DD7 /* Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A308A41CA77F2800EC1DD7 /* Block.m */; };
+		53A308A81CA78B4900EC1DD7 /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A308A71CA78B4900EC1DD7 /* Line.m */; };
+		53E979871CBB46CC00F35667 /* sound in Resources */ = {isa = PBXBuildFile; fileRef = 53E979861CBB46CC00F35667 /* sound */; };
+		53F6AAB21CBCFD5A00D13A4C /* SinglePlayerGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F6AAB11CBCFD5A00D13A4C /* SinglePlayerGameViewController.m */; };
+		53F6AAB51CBD080000D13A4C /* AIPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F6AAB41CBD080000D13A4C /* AIPlayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		530BEA591CB4AEE900D733C7 /* BlockButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockButton.h; sourceTree = "<group>"; };
+		530BEA5A1CB4AEE900D733C7 /* BlockButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockButton.m; sourceTree = "<group>"; };
+		530BEA661CB5048C00D733C7 /* CallNumbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallNumbers.h; sourceTree = "<group>"; };
+		530BEA671CB5048C00D733C7 /* CallNumbers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallNumbers.m; sourceTree = "<group>"; };
+		5323D2871CA69905006DE3FE /* HelloBingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloBingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5323D28B1CA69905006DE3FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5323D28D1CA69905006DE3FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5323D28E1CA69905006DE3FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5323D2901CA69905006DE3FE /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		5323D2911CA69905006DE3FE /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		5323D2941CA69905006DE3FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5323D2991CA69905006DE3FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5323D29B1CA69905006DE3FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5323D2A11CA69962006DE3FE /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		5323D2A21CA69962006DE3FE /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		5367DE701CBA83DA0071E741 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5367DE721CBA84920071E741 /* bgm */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bgm; sourceTree = "<group>"; };
+		5377F2A21CC3772500A547EB /* PlayMainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayMainMenuViewController.h; sourceTree = "<group>"; };
+		5377F2A31CC3772500A547EB /* PlayMainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayMainMenuViewController.m; sourceTree = "<group>"; };
+		5377F2A51CC607B900A547EB /* AI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AI.h; sourceTree = "<group>"; };
+		5377F2A61CC607B900A547EB /* AI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AI.m; sourceTree = "<group>"; };
+		5377F2AB1CC6343600A547EB /* MultiPlayerGameViewcontrollerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiPlayerGameViewcontrollerViewController.h; sourceTree = "<group>"; };
+		5377F2AC1CC6343600A547EB /* MultiPlayerGameViewcontrollerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiPlayerGameViewcontrollerViewController.m; sourceTree = "<group>"; };
+		5377F2AE1CC6612B00A547EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = HelloBingo/Assets.xcassets; sourceTree = "<group>"; };
+		53A308A01CA77AD700EC1DD7 /* Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
+		53A308A11CA77AD700EC1DD7 /* Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Board.m; sourceTree = "<group>"; };
+		53A308A31CA77F2800EC1DD7 /* Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Block.h; sourceTree = "<group>"; };
+		53A308A41CA77F2800EC1DD7 /* Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Block.m; sourceTree = "<group>"; };
+		53A308A61CA78B4900EC1DD7 /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		53A308A71CA78B4900EC1DD7 /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
+		53E979861CBB46CC00F35667 /* sound */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sound; sourceTree = "<group>"; };
+		53F6AAB01CBCFD5A00D13A4C /* SinglePlayerGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinglePlayerGameViewController.h; sourceTree = "<group>"; };
+		53F6AAB11CBCFD5A00D13A4C /* SinglePlayerGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinglePlayerGameViewController.m; sourceTree = "<group>"; };
+		53F6AAB31CBD080000D13A4C /* AIPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIPlayer.h; sourceTree = "<group>"; };
+		53F6AAB41CBD080000D13A4C /* AIPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIPlayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5323D2841CA69905006DE3FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5367DE711CBA83DA0071E741 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		530BEA621CB5016400D733C7 /* Board */ = {
+			isa = PBXGroup;
+			children = (
+				53A308A01CA77AD700EC1DD7 /* Board.h */,
+				53A308A11CA77AD700EC1DD7 /* Board.m */,
+				53A308A31CA77F2800EC1DD7 /* Block.h */,
+				53A308A41CA77F2800EC1DD7 /* Block.m */,
+				53A308A61CA78B4900EC1DD7 /* Line.h */,
+				53A308A71CA78B4900EC1DD7 /* Line.m */,
+			);
+			name = Board;
+			sourceTree = "<group>";
+		};
+		5323D27E1CA69905006DE3FE = {
+			isa = PBXGroup;
+			children = (
+				5367DE701CBA83DA0071E741 /* AVFoundation.framework */,
+				5323D2891CA69905006DE3FE /* HelloBingo */,
+				5377F2AE1CC6612B00A547EB /* Assets.xcassets */,
+				5323D2881CA69905006DE3FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5323D2881CA69905006DE3FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5323D2871CA69905006DE3FE /* HelloBingo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5323D2891CA69905006DE3FE /* HelloBingo */ = {
+			isa = PBXGroup;
+			children = (
+				5323D2931CA69905006DE3FE /* Main.storyboard */,
+				5323D28D1CA69905006DE3FE /* AppDelegate.h */,
+				5323D28E1CA69905006DE3FE /* AppDelegate.m */,
+				5377F2AA1CC6321100A547EB /* Mechanism */,
+				5377F2A91CC630CD00A547EB /* UI */,
+				5377F2A81CC6307900A547EB /* Deprecated */,
+				5367DE721CBA84920071E741 /* bgm */,
+				53E979861CBB46CC00F35667 /* sound */,
+				5323D2981CA69905006DE3FE /* LaunchScreen.storyboard */,
+				5323D29B1CA69905006DE3FE /* Info.plist */,
+				5323D28A1CA69905006DE3FE /* Supporting Files */,
+			);
+			path = HelloBingo;
+			sourceTree = "<group>";
+		};
+		5323D28A1CA69905006DE3FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5323D28B1CA69905006DE3FE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5377F2A81CC6307900A547EB /* Deprecated */ = {
+			isa = PBXGroup;
+			children = (
+				53F6AAB31CBD080000D13A4C /* AIPlayer.h */,
+				53F6AAB41CBD080000D13A4C /* AIPlayer.m */,
+			);
+			name = Deprecated;
+			sourceTree = "<group>";
+		};
+		5377F2A91CC630CD00A547EB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				53F6AAB61CBD084700D13A4C /* ViewController */,
+				530BEA591CB4AEE900D733C7 /* BlockButton.h */,
+				530BEA5A1CB4AEE900D733C7 /* BlockButton.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		5377F2AA1CC6321100A547EB /* Mechanism */ = {
+			isa = PBXGroup;
+			children = (
+				53F6AAB71CBD086200D13A4C /* Player */,
+				530BEA621CB5016400D733C7 /* Board */,
+				530BEA661CB5048C00D733C7 /* CallNumbers.h */,
+				530BEA671CB5048C00D733C7 /* CallNumbers.m */,
+			);
+			name = Mechanism;
+			sourceTree = "<group>";
+		};
+		53F6AAB61CBD084700D13A4C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5377F2A21CC3772500A547EB /* PlayMainMenuViewController.h */,
+				5377F2A31CC3772500A547EB /* PlayMainMenuViewController.m */,
+				5323D2901CA69905006DE3FE /* GameViewController.h */,
+				5323D2911CA69905006DE3FE /* GameViewController.m */,
+				53F6AAB01CBCFD5A00D13A4C /* SinglePlayerGameViewController.h */,
+				53F6AAB11CBCFD5A00D13A4C /* SinglePlayerGameViewController.m */,
+				5377F2AB1CC6343600A547EB /* MultiPlayerGameViewcontrollerViewController.h */,
+				5377F2AC1CC6343600A547EB /* MultiPlayerGameViewcontrollerViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		53F6AAB71CBD086200D13A4C /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				5323D2A11CA69962006DE3FE /* Player.h */,
+				5323D2A21CA69962006DE3FE /* Player.m */,
+				5377F2A51CC607B900A547EB /* AI.h */,
+				5377F2A61CC607B900A547EB /* AI.m */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5323D2861CA69905006DE3FE /* HelloBingo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5323D29E1CA69905006DE3FE /* Build configuration list for PBXNativeTarget "HelloBingo" */;
+			buildPhases = (
+				5323D2831CA69905006DE3FE /* Sources */,
+				5323D2841CA69905006DE3FE /* Frameworks */,
+				5323D2851CA69905006DE3FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloBingo;
+			productName = HelloBingo;
+			productReference = 5323D2871CA69905006DE3FE /* HelloBingo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5323D27F1CA69905006DE3FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = WHITEer;
+				TargetAttributes = {
+					5323D2861CA69905006DE3FE = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = R4B734GJZG;
+					};
+				};
+			};
+			buildConfigurationList = 5323D2821CA69905006DE3FE /* Build configuration list for PBXProject "HelloBingo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5323D27E1CA69905006DE3FE;
+			productRefGroup = 5323D2881CA69905006DE3FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5323D2861CA69905006DE3FE /* HelloBingo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5323D2851CA69905006DE3FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5323D29A1CA69905006DE3FE /* LaunchScreen.storyboard in Resources */,
+				5367DE731CBA84920071E741 /* bgm in Resources */,
+				53E979871CBB46CC00F35667 /* sound in Resources */,
+				5323D2951CA69905006DE3FE /* Main.storyboard in Resources */,
+				5377F2AF1CC6612B00A547EB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5323D2831CA69905006DE3FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F6AAB21CBCFD5A00D13A4C /* SinglePlayerGameViewController.m in Sources */,
+				530BEA681CB5048C00D733C7 /* CallNumbers.m in Sources */,
+				5323D2A31CA69962006DE3FE /* Player.m in Sources */,
+				53F6AAB51CBD080000D13A4C /* AIPlayer.m in Sources */,
+				5323D2921CA69905006DE3FE /* GameViewController.m in Sources */,
+				53A308A81CA78B4900EC1DD7 /* Line.m in Sources */,
+				5323D28F1CA69905006DE3FE /* AppDelegate.m in Sources */,
+				53A308A51CA77F2800EC1DD7 /* Block.m in Sources */,
+				5377F2AD1CC6343600A547EB /* MultiPlayerGameViewcontrollerViewController.m in Sources */,
+				5323D28C1CA69905006DE3FE /* main.m in Sources */,
+				5377F2A41CC3772500A547EB /* PlayMainMenuViewController.m in Sources */,
+				53A308A21CA77AD700EC1DD7 /* Board.m in Sources */,
+				5377F2A71CC607B900A547EB /* AI.m in Sources */,
+				530BEA5B1CB4AEE900D733C7 /* BlockButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5323D2931CA69905006DE3FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5323D2941CA69905006DE3FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5323D2981CA69905006DE3FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5323D2991CA69905006DE3FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5323D29C1CA69905006DE3FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5323D29D1CA69905006DE3FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5323D29F1CA69905006DE3FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HelloBingo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WHITEer.HelloBingo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5323D2A01CA69905006DE3FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HelloBingo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WHITEer.HelloBingo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5323D2821CA69905006DE3FE /* Build configuration list for PBXProject "HelloBingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5323D29C1CA69905006DE3FE /* Debug */,
+				5323D29D1CA69905006DE3FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5323D29E1CA69905006DE3FE /* Build configuration list for PBXNativeTarget "HelloBingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5323D29F1CA69905006DE3FE /* Debug */,
+				5323D2A01CA69905006DE3FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5323D27F1CA69905006DE3FE /* Project object */;
+}
